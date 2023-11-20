@@ -35,6 +35,7 @@ body, h1, h2, h3, form {
 body {
 	background: url(images/header_bg.jpg) repeat-x;
 	text-align: center;
+	cursor: url('images/cursor.png'), auto;
 }
 #wrapper {
 	text-align: left;
@@ -360,4 +361,8 @@ body{
    80%{color: DeepPink;}
    90%{color: DodgerBlue;}
 	 100%{color: orange;}
- }
+}
+
+a:hover{
+	cursor: url('images/cursor_hover.png'), auto;
+}
